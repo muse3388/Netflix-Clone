@@ -1,0 +1,19 @@
+<i class="ri-global-line"></i>
+<i class="ri-arrow-down-s-fill"></i>
+<!--<button class="language-b"> <i class="ri-global-line"></i> English <i class="ri-arrow-down-s-fill"></i></button>-->
+
+
+.movie-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    gap: 30px; /* Adjust the gap between images as needed */
+    padding-bottom: 10px; /* Add padding at the bottom to ensure scrollbar visibility */
+  }
+  
+  .movie-container img {
+    flex: 0 0 auto; /* Prevent images from growing to fill container */
+    width: 200px; /* Set fixed width for each image */
+    height: auto; /* Allow height to adjust according to aspect ratio */
+  }
+  
+  
